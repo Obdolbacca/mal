@@ -38,6 +38,10 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 
+gem 'thin', group: :development
+gem 'pry-rails', group: :development
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
