@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: bsmal_production
+  database: 'ec2-54-246-90-92'.eu-west-1.compute.amazonaws.com:5432/d3un0ci0hj1n9s
   pool: 5
-  username: bsmal
-  password:
+  username: jltqcypubzdtdl
+  password: 'KwfKSeiEvpYXMfn4mCDTp1ESVn'
