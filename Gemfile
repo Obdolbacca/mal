@@ -46,6 +46,8 @@ gem 'slim-rails'
 gem 'twitter-bootstrap-rails'
 gem 'kaminari'
 gem 'rails_12factor'
+gem 'russian', git: 'https://github.com/yaroslav/russian.git'
+gem 'bootstrap-kaminari-views'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

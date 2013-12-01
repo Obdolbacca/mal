@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/yaroslav/russian.git
+  revision: 6da1fe45cbff7c812faaa1bebf25b47b1f14377a
+  specs:
+    russian (0.6.0)
+      i18n (>= 0.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +35,9 @@ GEM
     arel (4.0.1)
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
+    bootstrap-kaminari-views (0.0.2)
+      kaminari (>= 0.13)
+      rails (>= 3.1)
     builder (3.1.4)
     coderay (1.1.0)
     coffee-rails (4.0.1)
@@ -160,6 +170,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-kaminari-views
   coffee-rails (~> 4.0.0)
   devise
   jbuilder (~> 1.2)
@@ -169,6 +180,7 @@ DEPENDENCIES
   pry-rails
   rails (= 4.0.1)
   rails_12factor
+  russian!
   sass-rails (~> 4.0.0)
   sdoc
   slim-rails
