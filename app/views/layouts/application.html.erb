@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html5>
+<html lang="ru">
 <head>
-  <title>Bsmal</title>
+  <title>Bsmal: альтернативный аниме-лист</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= render partial: 'shared/wrap_top' %>
 <%= yield %>
 
 </body>
