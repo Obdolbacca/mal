@@ -44,6 +44,7 @@ gem 'devise'
 gem 'slim-rails'
 gem 'twitter-bootstrap-rails'
 gem 'kaminari'
+gem 'rails_12factor'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
