@@ -156,10 +156,6 @@ GEM
       activesupport (>= 3.0)
       sprockets (~> 2.8)
     statemachine (2.2.0)
-    strong_parameters (0.1.4)
-      actionpack (>= 3.2.0)
-      activemodel (>= 3.2.0)
-      railties (>= 3.2.0)
     temple (0.6.7)
     therubyracer (0.12.0)
       libv8 (~> 3.16.14.0)
@@ -212,7 +208,6 @@ DEPENDENCIES
   simple_form
   slim-rails
   statemachine
-  strong_parameters
   therubyracer
   thin
   turbolinks

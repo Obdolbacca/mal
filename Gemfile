@@ -62,9 +62,6 @@ gem 'bootstrap-kaminari-views'
 # Just as said ^^
 gem 'statemachine'
 
-# protection of model fields
-gem 'strong_parameters'
-
 # Just as said ^^
 gem 'simple_form'
 
