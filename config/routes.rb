@@ -1,9 +1,11 @@
 Bsmal::Application.routes.draw do
   devise_for :users
 
-  resources :anime_lists
+  resources :anime_lists, except: :index
 
-  root to: 'anime_lists#index'
+  get '/front', to: 'application#front', as: :application_front
+
+  root to: 'application#front'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

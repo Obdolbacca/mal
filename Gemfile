@@ -41,13 +41,38 @@ end
 
 gem 'thin', group: :development
 gem 'pry-rails', group: :development
+
+# authorization
 gem 'devise'
+
+# same as helper, but drapper
+gem 'draper'
+
+# templating
 gem 'slim-rails'
+
 gem 'twitter-bootstrap-rails'
-gem 'kaminari'
 gem 'rails_12factor'
 gem 'russian', git: 'https://github.com/yaroslav/russian.git'
+
+# moar pagination
+gem 'kaminari'
 gem 'bootstrap-kaminari-views'
+
+# Just as said ^^
+gem 'statemachine'
+
+# protection of model fields
+gem 'strong_parameters'
+
+# Just as said ^^
+gem 'simple_form'
+
+# metasearch alternative
+gem 'ransack'
+
+# JS framework
+gem 'angular-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
