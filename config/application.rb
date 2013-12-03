@@ -26,5 +26,42 @@ module Bsmal
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :ru
     config.sass.preferred_syntax = :sass
+
+    config.time_zone = 'Europe/Moscow'
+
+    # Configure the default encoding used in templates for Ruby 1.9.
+    config.encoding = "utf-8"
+
+    # Configure sensitive parameters which will be filtered from the log file.
+    config.filter_parameters += [:password]
+
+    # Enable escaping HTML in JSON.
+    config.active_support.escape_html_entities_in_json = true
+
+    # Enable the asset pipeline
+    config.assets.enabled = true
+
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
+
+    config.generators do |g|
+      g.helper      false
+      g.javascripts false
+      g.stylesheets false
+
+      g.template_engine :slim
+      g.fixture_replacement :factory_girl, dir: "spec/factories"
+
+      g.test_framework :rspec,
+        fixtures: true,
+        view_specs: false,
+        helper_specs: false,
+        routing_specs: true,
+        controller_specs: true,
+        request_specs: true
+    end
+
+    # namespaces
+    config.autoload_paths += Dir["#{config.root}/app/models/**/"]
   end
 end

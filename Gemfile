@@ -71,6 +71,21 @@ gem 'ransack'
 # JS framework
 gem 'angular-rails'
 
+# some spec
+group :test, :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+
+	gem 'factory_girl_rails'
+	gem 'faker'
+	gem 'database_cleaner'
+	gem 'rspec-set'
+	gem 'simplecov'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
