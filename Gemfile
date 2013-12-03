@@ -42,6 +42,8 @@ gem 'unicorn', group: :production
 gem 'thin', group: :development
 gem 'pry-rails', group: :development
 
+gem 'annotate', group: :development
+
 # authorization
 gem 'devise'
 
