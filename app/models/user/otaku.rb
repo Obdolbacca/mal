@@ -1,3 +1,9 @@
+# encoding: utf-8
+#
+# == \General Information
+#
+# Author::    Oleg Bobok  (mailto:bobizma@gmail.com)
+# License::   Distributes under the same terms as Ruby
 # == Schema Information
 #
 # Table name: users
@@ -16,6 +22,13 @@
 #  created_at             :datetime
 #  updated_at             :datetime
 #  type                   :string(255)
+#
+#
+# Назначение:: 
+# Базовая модель пользователя сайта, расширение функционала модели User.
+# Должна поддерживать всю работу с пользовательским профилем.
+#  user.profile
+# Скорее всего, будет реализован через сервисный объект.
 #
 
 class User::Otaku < User

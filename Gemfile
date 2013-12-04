@@ -73,6 +73,10 @@ gem 'ransack'
 # JS framework
 gem 'angular-rails'
 
+# roles
+gem 'cancan'
+gem 'rolify'
+
 # some spec
 group :test, :development do
   gem 'rspec-rails'

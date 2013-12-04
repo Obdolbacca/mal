@@ -1,3 +1,11 @@
+# encoding: utf-8
+#
+#
+# == \General Information
+#
+# Author::    Oleg Bobok  (mailto:bobizma@gmail.com)
+# License::   Distributes under the same terms as Ruby
+#
 # == Schema Information
 #
 # Table name: users

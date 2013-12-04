@@ -122,6 +122,15 @@
 
   <div id="description" class="description">
     
+<h2 id="label-General+Information">General Information</h2>
+<dl class="rdoc-list note-list"><dt>Author
+<dd>
+<p>Oleg Bobok  (<a href="mailto:bobizma@gmail.com">bobizma@gmail.com</a>)</p>
+</dd><dt>License
+<dd>
+<p>Distributes under the same terms as Ruby</p>
+</dd></dl>
+
 <h2 id="label-Schema+Information">Schema Information</h2>
 
 <p>Table name: users</p>
@@ -140,6 +149,16 @@ last_sign_in_ip        :string(255)
 created_at             :datetime
 updated_at             :datetime
 type                   :string(255)</pre>
+<dl class="rdoc-list note-list"><dt>Назначение
+<dd>
+<p>Базовая модель пользователя сайта, расширение функционала модели <a
+href="../User.html">User</a>. Должна поддерживать всю работу с
+пользовательским профилем.</p>
+
+<pre>user.profile</pre>
+
+<p>Скорее всего, будет реализован через сервисный объект.</p>
+</dd></dl>
 
   </div><!-- description -->
 
