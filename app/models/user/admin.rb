@@ -27,5 +27,9 @@
 #
 
 class User::Admin < User
-  
+  has_many :news, as: :author
+
+  validates :first_name, presence: true, length: { minimum: 3, maximum: 60 }
+  validates :last_name, presence: true, length: { minimum: 3, maximum: 60 }
+  validates :middle_name, length: { minimum: 3, maximum: 60, allow_blank: true }
 end

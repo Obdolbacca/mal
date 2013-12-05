@@ -1,3 +1,4 @@
 .wrap
   .front#welcome = t 'front.welcome'
-  .front#news News will be here
+  .front#news 
+    = render @news if @news

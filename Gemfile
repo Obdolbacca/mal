@@ -44,6 +44,12 @@ gem 'pry-rails', group: :development
 
 gem 'annotate', group: :development
 
+# debug
+group :development do
+  gem 'binding_of_caller'
+  gem 'better_errors'
+end
+
 # authorization
 gem 'devise'
 
@@ -76,6 +82,9 @@ gem 'angular-rails'
 # roles
 gem 'cancan'
 gem 'rolify'
+
+# DRY controllers
+gem 'responders'
 
 # some spec
 group :test, :development do
